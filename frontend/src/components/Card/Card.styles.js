@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardWrapper = styled.div`
-    display: bloack;
+    display: block;
     align-items: center;
     max-width: var(--maxWidth);
     padding: 0 20px;
