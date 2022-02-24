@@ -1,5 +1,13 @@
-.input {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-  }
+.ant-rate{
+  padding-right: 10px;
+}
+
+.ant-picker{
+  margin-right: 10px;
+  padding-bottom: 2px;
+}
+
+.ant-btn-submit{
+  height: 30px;
+  background-color: #ffc337;
+}
