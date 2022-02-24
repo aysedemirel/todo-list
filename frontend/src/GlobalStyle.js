@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
+        height: 100%;
 
         h1{
             font-size: 2rem;
@@ -39,8 +40,4 @@ export const GlobalStyle = createGlobalStyle`
             color: var(--white);
         }
     }
-
-
-
-
 `;

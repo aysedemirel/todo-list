@@ -1,22 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
+import FilterIcon from '../images/filter.png';
 
-const Home = () => {
-    return (
-        <div>
-            <h1>Baslik</h1>
-            <div>
-                <div>
-                <p>1</p>
-                <p>Tamamlanmış</p>
-                </div>
-                <div>
-                <p>2</p>
-                <p>Tamamlanmamış</p>
-                </div>
-            </div>
-        </div>
-    );
-}
+import Summary from "./Summary";
+import { GroupHeader, HomeWrapper, HomeContent, FilterButon } from './Home.styles';
+
+const Home = () => (
+    <HomeWrapper>
+        <HomeContent>
+            <GroupHeader>Baslik</GroupHeader>
+            <FilterButon type="image" src={FilterIcon}/>
+        </HomeContent>
+        <Summary />
+    </HomeWrapper>
+);
 
 export default Home;
