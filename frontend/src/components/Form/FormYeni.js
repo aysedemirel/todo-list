@@ -7,7 +7,7 @@ import { InputArea, SelectionPart, FormWrapper } from "./Form.styles";
 
 import { FlagOutlined } from '@ant-design/icons';
 
-const desc = ['no priority', 'low priority', 'normal', 'priority', 'high priority'];
+const desc = ['no priority', 'low priority', 'normal', 'high priority', 'highest priority'];
 
 function onChange(date, dateString) {
     console.log(date, dateString);

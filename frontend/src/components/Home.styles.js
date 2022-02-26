@@ -6,7 +6,8 @@ export const HomeWrapper = styled.div`
     max-width: var(--maxWidth);
     padding: 0 10px;
     margin: 0 auto;
-    width: -webkit-fill-available;  
+    width: -webkit-fill-available; 
+    background-color: aliceblue;
 `;
 
 export const GroupHeader = styled.h1`
